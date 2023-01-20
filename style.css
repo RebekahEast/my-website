@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+
 body {
     align-items: center;
     background-color: grey;
 }
 
-header {
-    text-align: left;
+
+.intro_text {
     text-transform:uppercase;
-    padding: 10% 10% 10% 10%;
+    float: left;
     font-family: 'Monofett';
-    font-size: 30px;
-    line-height: 50px;
-    background-color: darkgray;
+    font-size: 40px;
 }
 
-.me {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
+
+.intro_image {
+    border-radius: 70%;
+    float: right;    
+    margin: 0 10% 0 0;
+    max-height: 500px;
+} 
