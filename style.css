@@ -1,8 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
 
+.head {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    font-size: 100px;
+    background-color: black;
+    color: #cdbcdc    ;
+    font-family: 'Monofett';
+    border: 1px gainsboro solid;
+}
+
+
 body {
     align-items: center;
-    background-color: grey;
+    background-color: rgb(78, 73, 73);
 }
 
 
@@ -10,13 +22,15 @@ body {
     text-transform:uppercase;
     float: left;
     font-family: 'Monofett';
+    color: #cdbcdc;
     font-size: 40px;
 }
 
 
 .intro_image {
-    border-radius: 70%;
+    border-radius: 50%;
     float: right;    
     margin: 0 10% 0 0;
     max-height: 500px;
+    border: 2px gainsboro solid;
 } 
