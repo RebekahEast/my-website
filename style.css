@@ -6,11 +6,12 @@ body {
 
 header {
     text-align: left;
-    text-transform: uppercase;
-    padding-left: 20%;
+    text-transform:uppercase;
+    padding: 10% 10% 10% 10%;
     font-family: 'Monofett';
-    font-size: 40px;
-    line-height: 20%;
+    font-size: 30px;
+    line-height: 50px;
+    background-color: darkgray;
 }
 
 .me {
