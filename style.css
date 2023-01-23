@@ -68,23 +68,29 @@ body {
     }
   }
 
-  p{
+p{
     font-size: 20px;
     text-align: left;
     font-family: Geneva;
     color: #cdbcdc;
+    margin: 4%;
   }
 
-  @media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
     p {
         text-align: center;
     }
   }
 
-  footer {
+footer {
     padding: 10px;
+    margin: 20px;
     text-align: center;
     background: black;
     color: #cdbcdc;
     font-family: Geneva;
+  }
+
+a {
+    color: black;
   }
