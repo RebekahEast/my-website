@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
 
+.top-border-nav{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+
+.top-border-nav a {
+    color: white;
+    padding: 20px 5%;
+    text-align: center;
+    font-family:Geneva;
+    font-size: 100%;
+  }
+
 .head {
     text-align: center;
     text-transform: uppercase;
@@ -10,7 +24,6 @@
     font-family: 'Monofett';
     border: 1px gainsboro solid;
 }
-
 
 body {
     align-items: center;
