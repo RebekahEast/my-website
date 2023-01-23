@@ -21,6 +21,11 @@
     color: darkslategrey;
 }
 
+.top-border-nav a.active {
+    background-color: darkslategray;
+    color: white;
+  }
+
 .head {
     text-align: center;
     text-transform: uppercase;
@@ -75,4 +80,12 @@ body {
     p {
         text-align: center;
     }
+  }
+
+  footer {
+    padding: 20px;
+    text-align: center;
+    background: black;
+    color: #cdbcdc;
+    font-family: Geneva;
   }
