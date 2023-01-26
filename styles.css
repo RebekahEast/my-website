@@ -21,10 +21,10 @@
     color: darkslategrey;
 }
 
-.top-border-nav a.active {
+/* .top-border-nav a.active {
     background-color: darkslategray;
     color: white;
-  }
+  } with this I wanted to have the link highlighted to show which section the person was on.*/
 
 .head {
     text-align: center;
