@@ -43,11 +43,11 @@ body {
 }
 
 .intro_text {
-    text-transform:uppercase;
-    font-family: 'Monofett';
-    color: #cdbcdc;
-    font-size: 400%;
-    letter-spacing: 0.1em;
+  text-transform:uppercase;
+  font-family: 'Monofett';
+  color: #cdbcdc;
+  font-size: 400%;
+  letter-spacing: 0.1em;
 }
 
 .intro_image {
@@ -93,4 +93,10 @@ footer {
 
 a {
     color: black;
+  }
+
+  .center_image {
+    margin: auto;
+    display: block;
+    max-height: 100px;   
   }
