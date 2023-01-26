@@ -115,6 +115,10 @@ a {
     flex-direction: column;
   }
 
+  .activity:hover {
+    box-shadow: 4px 10px 10px rgb(13, 0, 0);
+  }
+
   .activity {
     margin: 2% 20% 2% 20%;
     padding: 10px;
@@ -122,6 +126,22 @@ a {
     border: black solid 2px;
     align-items: center;
     display: flex;
-    border-radius: 90%;
     flex-direction: row;
   }
+
+  .hobby-button {
+    text-align: center;
+  }
+
+  #see-more {
+    width: 20%;
+    background-color: rgb(12, 12, 12);
+    color:#cdbcdc;
+    border-radius: 3px;
+    font-size: 90%;
+    padding: 10px;
+}
+
+#see-more:hover {
+  box-shadow: 2px 4px 4px rgb(13, 0, 0);
+}
