@@ -103,45 +103,52 @@ a {
     color: black;
   }
 
-  .center_image {
+.center_image {
     margin: auto;
     display: block;
     max-height: 100px;   
-  }
+}
 
 
-  #hobbies {
+#hobbies {
     display: flex;
     flex-direction: column;
-  }
+}
 
-  .activity:hover {
+.content:hover {
     box-shadow: 4px 10px 10px rgb(13, 0, 0);
-  }
+}
 
-  .activity {
-    margin: 2% 20% 2% 20%;
+.activity {
+    margin: 1% 20%;
     padding: 10px;
+    width: 48%;
     background-color: rgb(39, 40, 40);
     border: black solid 2px;
     align-items: center;
     display: flex;
     flex-direction: row;
-  }
-
-  .hobby-button {
-    text-align: center;
-  }
-
-  #see-more {
-    width: 20%;
-    background-color: rgb(12, 12, 12);
-    color:#cdbcdc;
-    border-radius: 3px;
-    font-size: 90%;
-    padding: 10px;
+    padding: 0 18px;
+    display: none;
 }
 
-#see-more:hover {
-  box-shadow: 2px 4px 4px rgb(13, 0, 0);
+.collapsible {
+    cursor:pointer;
+    padding: 10px;
+    font-family: geneva;
+    text-transform: uppercase;
+    background-color:#cdbcdc;
+    width: 50%;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    margin: 1% 20%;
+}
+  
+.collapsible:hover {
+    background-color: #5e5169;
+}
+
+.collapsible:active {
+  cursor: grabbing;
 }
