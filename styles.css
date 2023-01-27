@@ -126,8 +126,6 @@ a {
     background-color: rgb(39, 40, 40);
     border: black solid 2px;
     align-items: center;
-    display: flex;
-    flex-direction: row;
     padding: 0 18px;
     display: none;
 }
