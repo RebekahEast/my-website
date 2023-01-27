@@ -12,3 +12,10 @@ for (i = 0; i < Collapse.length; i++) {
     }
   });
 }
+
+function show_craft() {
+    document.getElementById('water-bottle')
+            .style.display = "block";
+    document.getElementById('button-id')
+            .style.display = "none";
+}
