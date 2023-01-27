@@ -16,6 +16,14 @@ for (i = 0; i < Collapse.length; i++) {
 function show_craft() {
     document.getElementById('water-bottle')
             .style.display = "block";
-    document.getElementById('button-id')
+    document.getElementById('button-craft')
             .style.display = "none";
 }
+
+function show_cooking_growing() {
+    document.getElementById('cucumber')
+            .style.display = "block";
+    document.getElementById('button_cooking_growing')
+            .style.display = "none";
+} 
+// how could this be the pics and not just the one? ^
