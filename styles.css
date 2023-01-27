@@ -162,3 +162,14 @@ a {
   margin-right: auto;
   display: block;
 }
+
+.cooking_pic {
+  padding: 1px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  height: auto;
+} 
+
+
