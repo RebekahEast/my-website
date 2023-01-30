@@ -2,7 +2,7 @@
     position: relative;
     font-family: Arial;
 }
-  
+
 .text-block-left {
     position: absolute;
     bottom: 10px;
@@ -44,10 +44,17 @@
     font-size: 18px;
 }
 
+@media screen and (max-width: 1500px) {
+    .block-wording {
+        font-size: 14px;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .block-wording {
         font-size: 12px;
     }
+}
 
 @media screen and (max-width: 900px) {
     .block-wording {
@@ -75,3 +82,22 @@
         margin-right: auto;
     }
 }
+  
+.software:not(.open) > * {
+    display: none;
+  }
+  
+.software:not(.open) > p:first-child {
+    display: block;
+  }
+
+.software > .flick {
+    display:inline;
+    background:#cdbcdc;
+    cursor:help;
+    margin-left: 45%;
+  }
+  
+.flick::after {
+    content: "LEARN MORE";
+  }
