@@ -1,0 +1,13 @@
+.juniper-image {
+    width: 500px;
+    object-fit: cover;
+    padding: 1%;
+}
+
+.Juniper{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
