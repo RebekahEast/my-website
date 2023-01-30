@@ -85,19 +85,23 @@
   
 .software:not(.open) > * {
     display: none;
-  }
+}
   
 .software:not(.open) > p:first-child {
     display: block;
-  }
+}
 
 .software > .flick {
     display:inline;
     background:#cdbcdc;
     cursor:help;
     margin-left: 45%;
-  }
+}
   
 .flick::after {
     content: "LEARN MORE";
-  }
+}
+
+.software.open > .flick::after {
+    content: "SEE LESS"
+}
