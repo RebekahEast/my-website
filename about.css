@@ -8,6 +8,7 @@
     right: 30%;
     left: 20%;
     background-color: black;
+    padding-bottom: 20px;
 }
 
 .image-about-left {
@@ -25,6 +26,7 @@
     left: 30%;
     right: 20%;
     background-color: black;
+    padding-bottom: 20px;
 }
 
 .image-about-right {
