@@ -1,6 +1,5 @@
 .about-block {
     position: relative;
-    font-family: Arial;
 }
 
 .text-block-left {
@@ -100,8 +99,10 @@
   
 .flick::after {
     content: "LEARN MORE";
+    font-family: geneva;
 }
 
 .software.open > .flick::after {
-    content: "SEE LESS"
+    content: "SEE LESS";
+    font-family: geneva;
 }
