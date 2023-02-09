@@ -4,6 +4,13 @@ var i;
 for (i = 0; i < Collapse.length; i++) {
   Collapse[i].addEventListener("click", function() {
     this.classList.toggle("active");
+
+    //shuts all the other tabs when another is opened
+    var activities = document.querySelectorAll('div.activity')
+    activities.forEach((activity) => {
+    	activity.style.display = "none"
+    })
+    
     var activity = this.nextElementSibling;
     if (activity.style.display === "block") {
       activity.style.display = "none";
