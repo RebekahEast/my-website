@@ -28,9 +28,17 @@ function show_craft() {
 }
 
 function show_cooking_growing() {
-    document.getElementById('cucumber')
-            .style.display = "block";
-    document.getElementById('button_cooking_growing')
-            .style.display = "none";
+  document.getElementById('cucumber')
+    .style.display = "block";
+  document.getElementById('button_cooking_growing')
+    .style.display = "none";
+  document.getElementById('strawb')
+    .style.display = "block";
+  document.getElementById('button_cooking_growing')
+    .style.display = "none";
+  document.getElementById('pasta')
+    .style.display = "block";
+  document.getElementById('button_cooking_growing')
+    .style.display = "none";
+  
 } 
-// how could this be the pics and not just the one? ^
