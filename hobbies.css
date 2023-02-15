@@ -79,3 +79,11 @@ a {
 p {
   text-align: center;
 }
+
+.books {
+  max-width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
