@@ -6,9 +6,10 @@
   
 .books-container {
     display: flex;
-    height: 40vh;
+    height: 65vh;
     overflow: scroll;
     width: 100%;
+    line-height: 1.8em;
     font-family: geneva;
 }
 
@@ -20,8 +21,10 @@
 }
 
 h5 {
-    font-size: 20px;
+    font-size: 16px;
     color: slategray;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .book-arrow {
