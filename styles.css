@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
 
-.top-border-nav{
+.top-border-nav {
     display: flex;
     background-color: black;
     justify-content: center;
@@ -104,3 +104,23 @@ a {
     max-height: 100px;   
 }
 
+
+.hobbies {
+  position: relative;
+  display: inline-block;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.hobbies .reading {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+}
+
+.hobbies:hover .reading {
+  visibility: visible;
+}
