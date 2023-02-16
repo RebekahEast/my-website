@@ -6,7 +6,7 @@
   
 .books-container {
     display: flex;
-    height: 65vh;
+    height: 75vh;
     overflow: scroll;
     width: 100%;
     line-height: 1.8em;
