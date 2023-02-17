@@ -7,7 +7,6 @@
 .books-container {
     display: flex;
     height: 100%;
-    min-height: 400vh;
     overflow: scroll;
     width: 100%;
     line-height: 1.8em;
@@ -55,6 +54,7 @@ h5 {
     width: 100%;
     height: 100%;
     flex: 1 0 100%;
+    min-height: 400px;
 }
 
 .book:nth-child(1) {
@@ -81,4 +81,12 @@ h5 {
         text-align: center;
         font-size: 70%;
     }
-  }
+    .book-recos {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+/* .bookrecs:after {
+        content:"Book Recs";
+    } */
