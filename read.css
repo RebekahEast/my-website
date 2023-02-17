@@ -6,7 +6,8 @@
   
 .books-container {
     display: flex;
-    height: 75vh;
+    height: 100%;
+    min-height: 400vh;
     overflow: scroll;
     width: 100%;
     line-height: 1.8em;
@@ -16,7 +17,7 @@
 .book_pics {
     float: left;
     margin: -10px 15px 15px 10px;
-    height: 30vh;
+    width: 40%;
     border-radius: 30%;
 }
 
