@@ -1,0 +1,27 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.box-info {
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+    border-radius: 50%;
+    background: #cdbcdc;
+    margin: 10px;
+}
+
+.image {
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid darkslateblue;
+    padding: 3px;
+    object-fit: cover;
+}
+
+.box {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
