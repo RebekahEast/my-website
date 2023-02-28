@@ -4,15 +4,14 @@
 }
 
 .box-info {
-    height: 300px;
-    width: 300px;
+    height: 25%;
+    width: 25%;
     padding: 5px;
     border-radius: 50%;
     background: #cdbcdc;
     margin: 10px;
-    overflow: hidden;
+    margin-top: 100px;
 }
-
 
 .project-image {
     width: 100%;
@@ -23,7 +22,26 @@
 }
 
 .box {
-    height: 100px;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+/* ....... */
+
+
+.project-text {
+      position: absolute;
+      opacity: 0;
+      visibility: hidden;
+      margin-top: -240px;
+      margin-left: 30px;
+      background-color: #cdbcdc;
+      width: 20%;
+}
+
+.project-text:hover {
+        visibility: visible;
+        opacity: 1;
 }
