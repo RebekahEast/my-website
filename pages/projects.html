@@ -34,9 +34,14 @@
     <div class="box" id ="box">
 
         <div class="box-info">
-            <img class ="project-image" src="../pictures/ACOTAR.jpeg" alt="">
-            <img class = "project-link" src="../pictures/link.png" alt="icon of a chain with two linked links">
-            <div class="project-text"></div>
+            <img class ="project-image" src="../pictures/hobby-page.png" alt="website screenshot - light pink colours">
+            <a href="https://rebekaheast.github.io/Hobby-Page/" target="_blank">
+                <img src="../pictures/link.png" class = "project-link" alt="con of a chain with two linked links">
+            </a>
+            <div class="project-text">
+                <h1>Hobby Page</h1>
+                <h5>Using my experience with HTML and CSS, I created a webpage of one of my interests - plant care! The idea for this was to make the page as user friendly as possible for a new time plant owner, or someone looking to care for their plants.</h5>
+            </div>
         </div>
 
         <div class="box-info">
@@ -53,10 +58,28 @@
             <img class ="project-image" src="../pictures/ACOTAR.jpeg" alt="">
             <img class = "project-link" src="../pictures/link.png" alt="icon of a chain with two linked links">
         </div>
-        
-
-
     </div>
+
+
+    <form id = "comments">
+        <div>
+            <label for="commenting" class="label">What do you think of my projects?</label>
+            <img src = "pics/comments.png" width = 25 alt="three dots in a speech bubble"><br><br>
+            <textarea oninput="countChars (this)" id="words" class="input" rows="10" minlength="2"></textarea>
+            <p id="charNum">140 character limit</p>
+        </div>
+
+        <div id="person_info">
+            <label for="name" class="label">Your Name*</label>
+            <input type="name" id="name" class="input" placeholder="name" required><br>
+
+            <label for="email" class="label">Your Email</label>
+            <input type="email" id="email" class="input" placeholder="email" required>
+        </div>
+        <input type="submit" id="send" value="comment">
+    </form>
+    
+    <p id = "responses"></p>
 
     <script src="../projects.js"></script>
 
