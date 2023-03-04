@@ -4,10 +4,10 @@
 
 .box-info {
     height: 600px;
-    width: 310px;
+    width: 290px;
     padding: 5px;
     background: #cdbcdc;
-    margin: 25px;
+    margin: 15px;
     margin-top: 100px;
     border-radius: 5%;
     position: relative;
@@ -27,7 +27,8 @@
 .box {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
+    margin-left: 6%;
 }
 
 @media (max-width: 800px) {
@@ -63,5 +64,3 @@
 .project-image:hover {
     opacity: 0.6;
 }
-
-
