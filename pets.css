@@ -63,3 +63,44 @@ p {
         height: 100px;
     }
 }
+
+
+
+/* ////////////// */
+
+.wrapper {
+    background-color: rgb(187, 187, 187);
+    position: absolute;
+    margin-top: 5%;
+    width: 60%;
+    height: 300px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 4%;
+}
+
+.pet-container {
+    height: 80%;
+    width: 80%;
+    border: 1px black solid;
+    margin: auto;
+    margin-top: 40px;    
+}
+
+.wrapper button {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    background-color:rgb(187, 187, 187);
+    border: none;
+    position: absolute;
+    margin: auto;
+    font-size: 20px;
+    top:0;
+    left: 4%;
+    bottom: 0;
+}
+
+button#next{
+    right: -83%;
+}
