@@ -23,7 +23,8 @@ const pets = [
         likes: "playing in the park and chasing Leo with the ball. Belly rubs and cuddles",
         dislikes: "getting groomed and not being able to cuddle people who make eye contact with her",
         hobbies: "toys. toys. sleep. cuddle. toys.",
-        nicknames: "Spleeb, Phoebert, Smeller Ella"
+        nicknames: "Spleeb, Phoebert, Smeller Ella",
+        image: "Pheobe 1.JPG" //how to have this as an image?//
     }, 
     {
         name: "Leo",
@@ -60,7 +61,7 @@ let displayPets = () => {
             Dislikes: ${pets[firstArray].dislikes}<br><br>
             Hobbies: ${pets[firstArray].hobbies}<br><br>
             Nicknames: ${pets[firstArray].nicknames}<br><br>
-
+            <img src=${pets[firstArray].image}>
         </p>
     `;
 };
