@@ -51,8 +51,13 @@ let PetsContainer = document.getElementById("pet-container");
 let ClickNext = document.getElementById("next");
 let ClickBack = document.getElementById("previous");
 
-let displayPets = () => {
-    PetsContainer.innerHTML = `
-        <p>${pets[firstArray].likes}</p>
-    `
-}
+// let displayPets = () => {
+//     PetsContainer.innerHTML = `
+//         <p>${pets[firstArray].name}</p>
+//     `;
+// };
+
+let text = pets.toString();
+document.getElementById("pet-container").innerHTML = text;
+
+window.onload = displayPets;

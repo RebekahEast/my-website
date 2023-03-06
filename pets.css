@@ -82,9 +82,11 @@ p {
 .pet-container {
     height: 80%;
     width: 80%;
-    border: 1px black solid;
+    background-color: aliceblue;
     margin: auto;
-    margin-top: 40px;    
+    margin-top: 40px;
+    color: black;
+    font-size: 10px;    
 }
 
 .wrapper button {
