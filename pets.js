@@ -66,5 +66,15 @@ let displayPets = () => {
     `;
 };
 
+ClickNext.addEventListener("click", () => {
+    firstArray = (totalPets + firstArray + 1) % totalPets;
+    displayPets();
+});
+
+ClickBack.addEventListener("click", () => {
+    firstArray = (totalPets + firstArray - 1) % totalPets;
+    displayPets();
+});
+
 
 window.onload = displayPets;
