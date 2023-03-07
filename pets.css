@@ -70,17 +70,19 @@ p {
 
 .wrapper {
     background-color: rgb(187, 187, 187);
-    position: absolute;
+    position: relative;
     margin-top: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     width: 60%;
-    height: 60%;
+    height: 300%;
     margin-left: 20%;
     margin-right: 20%;
     border-radius: 4%;
 }
 
 .pet-container {
-    height: 90%;
+    height: 70%;
     width: 80%;
     background-color: aliceblue;
     border-radius: 15%;
@@ -116,4 +118,9 @@ button#next{
     padding-top: 20px;
     font-size: 35px;
     line-height: 1.5em;
+}
+
+.pet-container img {
+    height: 30%;
+    width: 30%;
 }
