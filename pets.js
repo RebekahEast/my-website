@@ -24,7 +24,7 @@ const pets = [
         dislikes: "getting groomed and not being able to cuddle people who make eye contact with her",
         hobbies: "toys. toys. sleep. cuddle. toys.",
         nicknames: "Spleeb, Phoebert, Smeller Ella",
-        images: '../pictures/Pheobe2.JPG',
+        images: '../pictures/Pheobe3.JPG',
     }, 
     {
         name: "Leo",
